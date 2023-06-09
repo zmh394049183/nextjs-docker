@@ -1,16 +1,4 @@
 {
   "version": 2,
-  "name": "blog-server",
-  "builds": [
-    {
-      "src": "dist/main.js",
-      "use": "nextjs-docker"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "dist/main.js"
-    }
-  ]
+  "name": "blog-server"
 }
